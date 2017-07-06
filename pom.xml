@@ -21,14 +21,13 @@
    <version>1.1</version>
    <executions>
       <execution>
-         <id>id.clean</id>
-         <phase>clean</phase>
+        <phase>deploy</phase>
          <goals>
             <goal>run</goal>
          </goals>
          <configuration>
             <tasks>
-               <echo>clean phase</echo>
+               <echo>deploy to nexus repository</echo>
             </tasks>
          </configuration>
       </execution>     
